@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(190, 212, 231);
+    text-align: center;
+}
+header div {
+    font-size: 42px;
+}
+.content {
+    margin-top: 15%;
+}
+.ads, .gcash {
+    margin: 50px
+}
