@@ -13,7 +13,7 @@ html {
 
 header {
     min-height: 100vh; /* background image */
-    background-image: linear-gradient(rgba(20, 20, 20, 0.69),rgba(20, 20, 20, 0.69)),url(../images/home-bg.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.69),rgba(20, 20, 20, 0.69)),url(../images/home-bg3.jpg);
     background-position: center;
     background-size: cover;
     
@@ -52,21 +52,19 @@ header {
 }
 
 #button1 {
-    background-color: #83D391;
-    color: black;
+    color: white;
     border: 2px solid #83D391;
     border-radius: 30px;
     margin: 15px;
 }
 
 #button1:hover {
-    background-color: #D383C6;
-    color: white;
+    background-color: #83D391;
+    color: black;
     transition: 0.4s;
 }
 
 #button2 {
-    background-color: #D383C6;
     color: white;
     border: 2px solid #D383C6;
     border-radius: 30px;
@@ -74,10 +72,54 @@ header {
 }
 
 #button2:hover {
-    background-color: #83D391;
+    background-color: #D383C6;
     color: black;
     transition: 0.7s;
 }
+
+.section1 {
+    min-height: 100vh; /* background image */
+    background-image: linear-gradient(rgba(199, 192, 192, 0.425),rgba(199, 192, 192, 0.425)),url(../images/products-bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cards-product {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px) {
