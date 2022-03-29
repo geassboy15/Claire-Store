@@ -77,6 +77,8 @@ header {
     transition: 0.7s;
 }
 
+/* Start of 2nd page */
+
 .section1 {
     min-height: 100vh; /* background image */
     background-image: linear-gradient(rgba(199, 192, 192, 0.425),rgba(199, 192, 192, 0.425)),url(../images/products-bg2.jpg);
@@ -88,7 +90,52 @@ header {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    margin-left: 10px;
+    margin-right: 8.2%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 1em;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #D383C6;
+}
+
+p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.products-button {
+    color: black;
+    border: 2px solid #83D391;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.products-button:hover {
+    background-color: #83D391;
+    color: white;
+    transition: 0.55s;
+}
+
+/* Start of About us */
+
+.section-2 {
+    height: 90vh;
+    background-color: rgb(231,231,231);
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
 }
 
 
