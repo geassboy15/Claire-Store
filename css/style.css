@@ -13,7 +13,7 @@ html {
 
 header {
     min-height: 100vh; /* background image */
-    background-image: linear-gradient(rgba(20, 20, 20, 0.69),rgba(20, 20, 20, 0.69)),url(../images/home-bg3.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.69),rgba(15, 15, 15, 0.69)),url(../images/bg1.jpg);
     background-position: center;
     background-size: cover;
     
@@ -81,17 +81,23 @@ header {
 
 .section1 {
     min-height: 100vh; /* background image */
-    background-image: linear-gradient(rgba(220, 220, 220, 0.5),rgba(220, 220, 220, 0.5)),url(../images/products-bg2.jpg);
+    background-image: linear-gradient(rgba(220, 220, 220, 0.5),rgba(220, 220, 220, 0.5)),url(../images/bg4.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.products-header {
-    padding-bottom: 20%;
+.section2 {
+    min-height: 100vh; /* background image */
+    background-image: linear-gradient(rgba(20, 20, 20, 0.69),rgba(30, 30, 30, 0.69)),url(../images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#products-jumbotron {
-    padding-left: 10%;
+.section3 {
+    min-height: 90vh; /* background image */
+    background: #853f79;
+    background-position: center;
+    background-size: cover;
 }
 
 h3 {
@@ -131,19 +137,6 @@ p {
     margin-right: 8.2%;
     margin-bottom: 5%;
     text-align: center;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Start of About us */
@@ -200,6 +193,7 @@ footer {
     }
     #button1 {
         position: relative;
-        left: -15px;
+        left: -20px;
     }
+  
 }
