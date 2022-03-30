@@ -81,19 +81,17 @@ header {
 
 .section1 {
     min-height: 100vh; /* background image */
-    background-image: linear-gradient(rgba(199, 192, 192, 0.425),rgba(199, 192, 192, 0.425)),url(../images/products-bg2.jpg);
+    background-image: linear-gradient(rgba(220, 220, 220, 0.5),rgba(220, 220, 220, 0.5)),url(../images/products-bg2.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.cards-product {
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    margin-right: 8.2%;
-    margin-bottom: 5%;
-    text-align: center;
-    
+.products-header {
+    padding-bottom: 20%;
+}
+
+#products-jumbotron {
+    padding-left: 10%;
 }
 
 h3 {
@@ -125,6 +123,28 @@ p {
     color: white;
     transition: 0.55s;
 }
+
+.cards-product {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-right: 8.2%;
+    margin-bottom: 5%;
+    text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Start of About us */
 
