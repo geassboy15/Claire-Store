@@ -20,9 +20,14 @@ header {
 }
 
 .logo {
-    height: 100px;
-    margin: 10px 0px 10px 0px;
+    height: unset;
+    margin: 0;
     margin-right: 30%
+}
+
+.logo > img {
+    width: 47%;
+    height: auto;
 }
 
 .navitem {
@@ -93,18 +98,18 @@ header {
     background-size: cover;
 }
 
-.section3 {
-    min-height: 90vh;
-    background: #853f79;
-    background-position: center;
-    background-size: cover;
+.card-con {
+    background-color: #bcf3c6;
 }
 
 h2 {
     font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.5vh;
     text-transform: uppercase;
-    margin: 0;
-    padding: 5% 0%;
+    padding: 5% 0;
+    text-align: left;
 }
 
 h3 {
@@ -125,28 +130,29 @@ p {
     text-align: left;
 }
 
+
 .product-pricing {
-    text-align: center;
+    text-align: left;
     font-style: italic;
     font-size: 90%;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1rem;
-    letter-spacing: 0.33vh;
-}
-
-.bi-cash-coin {
-    margin-top: 15%;
-}
-
-
-.card-con {
-    background-color: #bcf3c6;
+    letter-spacing: 0.275vh;
 }
 
 .cards-product {
-    box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75);
+    /* box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75); */
+    height: 100%;
+    padding: 10px;
+}
+
+.cards-product:hover {
+        background-color: #D383C6;
+        border: 1px solid #D383C6; /*green #bcf3c6;*/
+        border-radius: 10px;
+        transition: 0.25s;
 }
 
 /* Start of About us */
@@ -156,41 +162,62 @@ p {
     background-color: rgb(231,231,231);
 }
 
+.section2 h2 {
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.5vh;
+    text-transform: uppercase;
+    padding: 5% 0;
+    text-align: left;
+}
+
+.card-con-section2 {
+     background-color: #D383C6;
+     color: white;
+    
+}
+
+.product-s2 {
+    height: 100%;
+    padding: 10px;
+}
+
+.product-s2:hover {
+    background-color: #bcf3c6;
+    border: 1px solid #bcf3c6;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#gcash-no {
+    font-size: 1rem;
+    letter-spacing: 0.5vh;
+}
+
+#gcash-no:hover{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    letter-spacing: 0.5vh;
+    transition: 0.5s;
+}
+
+/* Start of About us */
+
+.section3 {
+    min-height: 90vh;
+    background: rgb(167, 166, 166);
+    background-position: center;
+    background-size: cover;
+}
+
 footer {
     height: 10vh;
     background-color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
     .navcon {
@@ -198,12 +225,15 @@ footer {
     }
     
     .logo {
-        height: 65px;
         margin: 0;
+        padding: 0;
+        width: 33%;
+    }
+    
     }
     #button1 {
         position: relative;
-        left: -20px;
+        left: -12px;
     }
   
 }
