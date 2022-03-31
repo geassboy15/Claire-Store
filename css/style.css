@@ -149,10 +149,6 @@ p {
 }
 
 .cards-product {
-    /* box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: -9px 13px 14px -4px rgba(0,0,0,0.75); */
-    height: 100%;
     padding: 10px;
 }
 
@@ -185,10 +181,10 @@ p {
      background-color: #D383C6;
      color: white;
     
+    
 }
 
 .product-s2 {
-    height: 100%;
     padding: 10px;
 }
 
@@ -216,21 +212,21 @@ p {
 /* Start of About us */
 
 .section3 {
-    min-height: 90vh;
+    min-height: 95vh;
     background-image: linear-gradient(rgba(200, 200, 200, 0.69),rgba(200, 200, 200, 0.69)),url(../images/bg-about.jpg);
     background-position: center;
     background-size: cover;
 }
 
 footer {
-    height: 10vh;
+    height: 5vh;
     color: white;
     background-color: black;
     padding: 5%;
 }
 
 .location {
-    margin-left: 10%;
+    margin-left: unset;
 }
 
 .alert-light {
