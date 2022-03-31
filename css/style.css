@@ -250,3 +250,18 @@ footer {
         left: -12px;
     }
 }
+
+@media (max-width: 576px) {
+        .alert-light {
+            width: 100%;
+            margin: 10% 0 0 0;
+        }
+        .alert-light > h4 {
+            text-align: left;
+        }
+        #button3 {
+            background-color: white;
+            border: none;
+            font-size: 80%;
+        }
+}
