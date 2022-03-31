@@ -63,7 +63,15 @@ header {
     margin: 15px;
 }
 
-#button1:hover {
+#button3 {
+    color: black;
+    border: 2px solid #83D391;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+#button1:hover,
+ #button3:hover {
     background-color: #83D391;
     color: black;
     transition: 0.4s;
@@ -209,31 +217,40 @@ p {
 
 .section3 {
     min-height: 90vh;
-    background: rgb(167, 166, 166);
+    background-image: linear-gradient(rgba(200, 200, 200, 0.69),rgba(200, 200, 200, 0.69)),url(../images/bg-about.jpg);
     background-position: center;
     background-size: cover;
 }
 
 footer {
     height: 10vh;
+    color: white;
     background-color: black;
+    padding: 5%;
+}
+
+.location {
+    margin-left: 10%;
+}
+
+.alert-light {
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .navcon {
         background-color: black;
     }
-    
     .logo {
         margin: 0;
         padding: 0;
         width: 33%;
     }
     
-    }
     #button1 {
         position: relative;
         left: -12px;
     }
-  
 }
